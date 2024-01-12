@@ -23,7 +23,7 @@ export const App = () => {
 				<hr />
 			</>
 
-			<div className="flex flex-col gap-1 w-full ml-2">
+			<div className="flex flex-col gap-1 w-auto ml-2">
 				<h1 className="text-2xl mt-2">Game</h1>
 				<GlobalCounter />
 				{isConnectedUser && isChainRight() && <PersonalCounter />}
